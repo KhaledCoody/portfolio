@@ -1,195 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Khaled Hassan Ahmed - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta charset="hUTF-8" />
+    <link rel="icon" type="image/svg+xml" class="rounded-b-4xl w-8 text-white" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/index.css">
+
+    <style>
+        /* Google font - Work Sans */
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+
+    <title>Picto - Personal portfolio</title>
 </head>
-<body>
-    <nav class="navbar">
-        <div class="container">
-            <h1 class="logo">KH</h1>
-            <ul class="nav-links">
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
 
-    <section id="hero" class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Khaled Hassan Ahmed</h1>
-            <p class="hero-subtitle">Computer Science Student & Aspiring Software Engineer</p>
-            <a href="#about" class="cta-button">Discover More</a>
-        </div>
-        <div class="hero-bg"></div>
-    </section>
-
-    <section id="about" class="about">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2>About Me</h2>
-                    <p>I am a computer science student seeking a software engineering role to apply strong technical skills and problem-solving abilities in contributing to innovative projects. I am eager to bridge theoretical knowledge with practical experience and become a skilled and respected engineer known for delivering high-quality solutions. I am passionate about continuous professional development.</p>
-                    <p>With experience in competitive programming, having solved over 500 problems on Codeforces and participated in ECPC competitions, I bring strong algorithmic thinking and problem-solving capabilities to any team.</p>
-                </div>
-                <div class="about-image">
-                    <img src="Images/IMG_20250614_174425.jpg" alt="Khaled Hassan Ahmed" class="profile-photo-large">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2>Latest Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-front">
-                        <h3>StudyZone</h3>
-                        <p class="tech-stack">.NET 9, PostgreSQL, Minimal APIs, Dapper</p>
-                        <p>A comprehensive education platform with multiple modules including subjects, quizzes, library, and notifications.</p>
-                    </div>
-                    <div class="project-back">
-                        <h4>Key Features:</h4>
-                        <ul>
-                            <li>Teacher profiles with videos and books</li>
-                            <li>Dynamic quiz system with question bank</li>
-                            <li>Firebase FCM notifications</li>
-                            <li>Trending content with performance optimization</li>
-                            <li>Gamification with points and rewards</li>
-                        </ul>
-                        <a href="#" class="project-link">View Project</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-front">
-                        <h3>Intelligent Assistance for Personalized Planning</h3>
-                        <p class="tech-stack">.NET 9, PostgreSQL, Minimal APIs, SignalR, EF Core</p>
-                        <p>AI-driven goal-tracking platform for SMART goals and habit monitoring.</p>
-                    </div>
-                    <div class="project-back">
-                        <h4>Key Features:</h4>
-                        <ul>
-                            <li>Clean REST APIs with .NET 9 Minimal APIs</li>
-                            <li>Real-time updates with SignalR</li>
-                            <li>Efficient data management with EF Core</li>
-                            <li>Personalized planning and habit tracking</li>
-                        </ul>
-                        <a href="#" class="project-link">View Project</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-item">
-                    <i class="fas fa-code"></i>
-                    <h4>C#</h4>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 90%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <i class="fas fa-database"></i>
-                    <h4>SQL & Databases</h4>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 85%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <i class="fas fa-brain"></i>
-                    <h4>Algorithms & Data Structures</h4>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 88%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <i class="fab fa-dotnet"></i>
-                    <h4>.NET Backend</h4>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 85%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <i class="fas fa-code-branch"></i>
-                    <h4>Git & GitFlow</h4>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 80%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <i class="fas fa-server"></i>
-                    <h4>REST APIs</h4>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 82%"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Get In Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Let's Connect</h3>
-                    <p>I'm always open to discussing new opportunities and interesting projects.</p>
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <span>khaled.hassan.002299@gmail.com</span>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-phone"></i>
-                            <span>+201552088425</span>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Cairo, Egypt</span>
-                        </div>
-                    </div>
-                    <div class="social-icons">
-                        <a href="https://github.com/KhaledCoody" class="social-icon"><i class="fab fa-github"></i></a>
-                        <a href="https://linkedin.com/in/khaled-hassan-ahmed" class="social-icon"><i class="fab fa-linkedin"></i></a>
-                        <a href="mailto:khaled.hassan.002299@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
-                    </div>
-                </div>
-                <form class="contact-form">
-                    <div class="form-group">
-                        <input type="text" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" placeholder="Subject" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea placeholder="Your Message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="submit-btn">Send Message</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Khaled Hassan Ahmed. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+<body class="">
+    <div id="root" class=""></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="https://unpkg.com/cally"></script>
 </body>
+
 </html>

@@ -1,57 +1,102 @@
-# Khaled Hassan Ahmed - Modern Portfolio
+# Khaled Hassan Ahmed - Modern React Portfolio
 
-A sleek, modern personal portfolio website showcasing my skills and projects as a Computer Science student and aspiring Software Engineer.
+A sleek, modern personal portfolio website built with React, Vite, and Tailwind CSS, showcasing my skills and projects as a Computer Science student and aspiring Software Engineer.
 
 ## 🚀 Features
 
-- **Hero Section**: Animated gradient background with floating particles and parallax effects
-- **About Me**: Large profile photo with smooth hover animations
-- **Projects**: Interactive flip cards that reveal project details on hover
-- **Skills**: Animated progress bars with bouncing icons
-- **Contact**: Stylish contact form with animated social media icons
+- **Modern React Architecture**: Built with React 19, Vite, and Tailwind CSS
 - **Responsive Design**: Optimized for both desktop and mobile devices
-- **Dark Theme**: Modern dark color palette with accent colors
-- **Micro-interactions**: Hover effects, smooth transitions, and engaging animations
+- **Interactive Components**: Smooth animations and micro-interactions
+- **Professional UI**: Clean design with DaisyUI components
+- **Fast Performance**: Optimized with Vite for quick loading
+- **SEO Friendly**: Proper meta tags and semantic HTML
 
 ## 🛠️ Technologies Used
 
-- **HTML5**: Semantic markup structure
-- **CSS3**: Modern styling with animations and responsive design
-- **JavaScript**: Interactive features and smooth scrolling
-- **Font Awesome**: Icons for skills and social media
+- **React 19**: Modern React with hooks and functional components
+- **Vite**: Fast build tool and development server
+- **Tailwind CSS**: Utility-first CSS framework
+- **DaisyUI**: Component library for Tailwind CSS
+- **Font Awesome**: Professional icons
+- **React Router**: Client-side routing
+- **Swiper**: Touch-enabled sliders
 
 ## 📱 Sections
 
-- **Hero**: Name, profession, and animated background
-- **About**: Personal bio with large profile photo
-- **Projects**: StudyZone and Intelligent Assistance projects with flip cards
-- **Skills**: Technical skills with progress bars and icons
-- **Contact**: Contact form and social media links
+- **Introduction**: Hero section with name, profession, and photo
+- **Profile**: Detailed about section with background and skills
+- **Work Process**: Development methodology and approach
+- **Portfolio**: Showcase of StudyZone and Intelligent Assistance projects
+- **Work Together**: Call-to-action section
+- **Blog**: Latest articles and insights
+- **Profession**: Services and expertise areas
+- **Happy Clients**: Testimonials and feedback
+- **Testimonial**: Client reviews
+- **Contact**: Contact form and information
 
 ## 🎨 Design Highlights
 
-- Dark mode friendly with purple/blue accent colors
-- Smooth scrolling navigation
-- Section fade-in animations on scroll
-- Interactive project cards with 3D flip effects
-- Animated progress bars for skills
-- Particle effects in hero background
-- Responsive grid layouts
-- Hover micro-interactions throughout
+- **Dark/Light Theme Support**: Modern color schemes
+- **Smooth Animations**: CSS transitions and React animations
+- **Interactive Cards**: Hover effects and transitions
+- **Professional Typography**: Clean and readable fonts
+- **Mobile-First**: Responsive design approach
+- **Accessibility**: Proper ARIA labels and keyboard navigation
 
 ## 🚀 Getting Started
 
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
 1. Clone the repository
-2. Open `index.html` in your web browser
-3. Enjoy the modern portfolio experience!
+```bash
+git clone https://github.com/KhaledCoody/portfolio.git
+cd portfolio
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Start the development server
+```bash
+npm run dev
+```
+
+4. Open your browser and visit `http://localhost:5174`
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Deploy to GitHub Pages
+
+```bash
+npm run deploy
+```
 
 ## 📧 Contact
 
 Feel free to reach out through the contact form or connect via:
 - Email: khaled.hassan.002299@gmail.com
+- Phone: +201552088425
+- Location: Cairo, Egypt
 - GitHub: [@KhaledCoody](https://github.com/KhaledCoody)
 - LinkedIn: [Khaled Hassan Ahmed](https://linkedin.com/in/khaled-hassan-ahmed)
 
+## 📊 Project Stats
+
+- **Problems Solved**: 500+ on Codeforces
+- **Projects Completed**: 2 major applications
+- **Competitions**: ECPC Qualifications & Finals (2023, 2024)
+- **Technologies**: .NET, React, PostgreSQL, SignalR, EF Core
+
 ---
 
-Built with ❤️ by Khaled Hassan Ahmed
+Built with ❤️ by Khaled Hassan Ahmed using React & Tailwind CSS
